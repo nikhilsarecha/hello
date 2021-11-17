@@ -20,7 +20,7 @@ jobs:
             . venv/bin/activate
             make install
             
-      - save-cache:
+      - save_cache:
           paths:
             - ./venv
           keys:
